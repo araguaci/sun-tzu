@@ -1,0 +1,45 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import astropodConfig from "../../.astropod/astropod.config.json";
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+
+const { image, title = astropodConfig.name, description = astropodConfig.description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme={astropodConfig.theme}>
+  <head>
+    <BaseHead title={title} description={description} image={image} />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/custom.css">
+  </head>
+  <body class="bg-[311c19] min-h-screen">
+    <div class="container mx-auto lg:max-w-[960px]">
+      <div class="md:flex md:justify-center w-full">
+        <main class="-mt-5 w-full">
+          <slot />
+        </main>
+      </div>
+      <Footer />
+    </div>
+  </body>
+</html>
+
+<style>
+  p {
+    font-weight: 700 !important;
+    margin: 1px !important;
+  }  
+  .prose-p,
+	.prose-base,
+	.prose-xl,
+	.prose :where(p):not(:where([class~="not-prose"] *)) ,
+	.prose {
+		margin-top: 0.55em !important;
+		margin-bottom: 0.55em !important;
+	}  
+</style>

@@ -1,0 +1,23 @@
+{
+  "copyright": "www.artesdosul.com",
+  "theme": "Cupcake",
+  "fundingText": "",
+  "author": "Artes do Sul (@araguaci)",
+  "name": "A ARTE DA GUERRA - SUN TZU",
+  "banner": "/suntzu_5.jpg",
+  "pageSize": 15,
+  "fundingUrl": "",
+  "owner": "",
+  "favicon": "/favicon.ico",
+  "explicit": false,
+  "cover": "/suntzu.png",
+  "language": "en",
+  "link": "https://sun-tzu.netlify.app",
+  "email": "araguaci@gmail.com",
+  "description": "A Arte da Guerra é um tratado militar chinês escrito por Sun Tzu, um estrategista militar, durante o período dos Reinos Combatentes, aproximadamente no século V a.C.",
+  "category": [
+    "Strategy",
+    "Business"
+  ],
+  "feedSize": ""
+}

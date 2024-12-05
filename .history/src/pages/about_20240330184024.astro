@@ -1,0 +1,31 @@
+
+---
+import EpisodeLayout from "../layouts/EpisodeLayout.astro";
+import astropodConfig from "../../.astropod/astropod.config.json";
+---
+
+<EpisodeLayout title="Sobre" description={astropodConfig.description} cover={astropodConfig.cover}>
+  <h3>{astropodConfig.description}</h3>
+  <section
+	data-testid="about"
+	id="about"
+	class="mb-10 flex flex-col items-center justify-center lg:mb-0 lg:h-screen lg:flex-row"
+>
+	<div class="mb-10 flex w-full flex-col items-center justify-center lg:mb-0 lg:w-10/2">
+		<h2 class="font-monospace text-3xl text-orange lg:text-4xl">Aprenda a rezar o Rosário em Latim com o Papa Bento XVI</h2>
+		<p class="mb-2">
+			<div>
+        Disse-lhe Jesus: Eu sou o caminho, e a verdade e a vida; ninguém vem ao Pai, senão por mim. – João 14:6
+  
+  Esta passagem mantém muita gente com o pé atrás em relação à devoção à Maria, principalmente pessoas de outras religiões “evangélicas” que veem o costume como idolatria, mas é justamente esta passagem o motivo mais forte que nos leva ao rosário e se torna o ponto central de toda a devoção.
+  
+  JESUS é o centro e o tema principal da meditação do rosário. Cada mistério traz uma parte de sua vida, paixão e ressurreição. Recitando o rosário nós relembramos e meditamos sobre a trajetória de JESUS.
+  
+  Se repetir tantas vezes a mesma invocação se tornar maçante para você, talvez você não esteja fazendo isso certo. Lembre-se de meditar sobre o mistério de Jesus enquanto recita as Ave Marias e não ficar pensando no almoço de amanhã.
+  
+  “É MARIA QUEM TRAZ JESUS, E JESUS NOS LEVA AO PAI. ELA É, SIMPLESMENTE, A PESSOA QUE FACILITA O ACESSO A DEUS” (SÃO JOSEMARIA ESCRIVÁ)
+      </div>
+		</p>
+	</div>
+</section>
+</EpisodeLayout>

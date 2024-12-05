@@ -1,0 +1,14 @@
+<style>
+  p {
+    font-weight:600 !important;
+    margin: 1px !important;
+  }  
+  .prose-p,
+	.prose-base,
+	.prose-xl,
+	.prose :where(p):not(:where([class~="not-prose"] *)) ,
+	.prose {
+		margin-top: 0.55em !important;
+		margin-bottom: 0.55em !important;
+	}  
+</style>

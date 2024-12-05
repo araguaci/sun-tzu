@@ -1,0 +1,15 @@
+
+---
+import EpisodeLayout from "../layouts/EpisodeLayout.astro";
+import astropodConfig from "../../.astropod/astropod.config.json";
+---
+
+<EpisodeLayout title="Sobre" description={astropodConfig.description} cover={astropodConfig.cover}>
+  
+		<div class="text-center mt-16">
+		  <h1 class="text-2xl font-bold mb-2">{astropodConfig.description}</h1>		  
+		</div> 
+			
+		 
+
+</EpisodeLayout>

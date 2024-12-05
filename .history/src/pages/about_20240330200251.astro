@@ -1,0 +1,25 @@
+
+---
+import EpisodeLayout from "../layouts/EpisodeLayout.astro";
+import astropodConfig from "../../.astropod/astropod.config.json";
+import {Content as Sobre} from '../components/sobre.md';
+---
+
+<EpisodeLayout title="Sobre" description={astropodConfig.description} cover={astropodConfig.cover}>
+  
+		<div class="text-center">
+		  <h1 class="text-2xl font-bold mb-2">{astropodConfig.description}</h1>		  
+		</div> 
+		<Sobre />
+		 
+		<a class="btn btn-accent mt-9" href="/">Home</a>
+
+</EpisodeLayout>
+
+<style>
+	html, body, p {
+		font-size: 1.125rem; /* 18px */
+		line-height: 1.75rem; /* 28px */
+		font-family: "IBM Plex Serif"
+	}
+</style>

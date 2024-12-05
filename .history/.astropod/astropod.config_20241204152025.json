@@ -1,0 +1,23 @@
+{
+  "copyright": "",
+  "theme": "dark",
+  "fundingText": "",
+  "author": "Artes do Sul (@araguaci)",
+  "name": "A ARTE DA GUERRA - SUN TZU",
+  "banner": "/suntzu_4.jpg",
+  "pageSize": 15,
+  "fundingUrl": "",
+  "owner": "",
+  "favicon": "/favicon.ico",
+  "explicit": false,
+  "cover": "/templario.png",
+  "language": "en",
+  "link": "https://sun-tzu.netlify.app",
+  "email": "araguaci@gmail.com",
+  "description": "Rosário em Latim com o Papa Bento XVI.",
+  "category": [
+    "Technology",
+    "Business"
+  ],
+  "feedSize": ""
+}
